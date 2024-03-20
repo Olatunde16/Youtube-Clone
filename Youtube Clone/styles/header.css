@@ -1,0 +1,241 @@
+hr {
+  background-color: #000000;
+  height: 1px;
+  border: none;
+}
+
+#navbar {
+  background-color: #ffffff;
+  height: 100px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: fixed;
+  margin-top: 0;
+  margin-bottom: 2px;
+  z-index: 6;
+}
+
+.menu-bars {
+  margin-left: 1.2rem;
+  font-size: 2rem;
+  color: #000000;
+}
+
+#nav-menu {
+  background-color: #ffffff;
+  width: 220px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+  z-index: 5;
+}
+
+#nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  list-style: none;
+  height: 50px;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.2rem;
+  margin-left: 0.2rem;
+}
+
+.nav-text:hover {
+  background-color: rgba(65, 65, 65, 0.219);
+  cursor: pointer;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.nav-icon {
+  padding-right: 1rem;
+  color: #000000;
+}
+
+#youtube-logo {
+  color: #f90201;
+  padding-right: 0.2rem;
+}
+
+#navbar-toggle {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+#navbar-toggle h1 {
+  color: #000000;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  width: 12rem;
+}
+
+#navbar-toggle a {
+  text-decoration: none;
+}
+
+.fa-bars {
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+.nav-section {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.youtube {
+  color: #000000;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  display: flex;
+  width: 12rem;
+}
+
+.youtube h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.search {
+  display: flex;
+  margin-left: -3%;
+ }
+ 
+ .search form {
+  display: flex;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  height: 45px;
+ }
+
+ .search input {
+  width: 600px;
+  padding: 10px;
+  border: 0;
+  height: 100%;
+  font-size: 16px;
+  border-radius: 20px 0 0 20px;
+  background-color: #ffffff;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #000000;
+}
+
+.search button {
+  height: 100%;
+  width: 60px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+}
+
+.search button:hover {
+  background-color: #000000;
+  border: 0.5px solid #ddd;
+  color: white;
+}
+
+.search button i:hover {
+  color: #fff;
+}
+
+.icons {
+  display: flex;
+  font-size: 1.2rem;
+  color: #000000;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.right {
+  display: flex;
+  font-size: 1.2rem;
+  color: #000000;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+  cursor: pointer;
+}
+
+.right2 {
+  display: flex;
+  font-size: 1.2rem;
+  color: #000000;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.right a{
+  padding-right: 30px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.dark-mode {
+  display: none;
+  position: absolute;
+  background-color: #212121;
+  width: 15rem;
+  margin-left: 44rem;
+  margin-top: 15rem;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 8;
+}
+
+.dark-mode h3{
+  color: #fff;
+  background-color: #212121;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.dark-mode hr{
+  background-color: #f6f6f6;
+  margin-top: 3px;
+}
+
+.dark-mode p{
+  color: #ffffff;
+  font-size: small;
+  text-align: justify;
+  background-color: #212121;
+  padding: 10px;
+}
+
+.dark {
+  background-color: #212121;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.show {display:block;}
